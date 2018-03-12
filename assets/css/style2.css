@@ -211,3 +211,49 @@ footer {
   bottom: 0;
   text-align: center;
 }
+
+
+@media screen and (max-width: 980px) {
+  .movesection {
+    width: 100%;
+  }
+p {margin-right: 50px;
+  line-height: 30px;}
+img{
+  margin-right: 33px;
+    width: 300px;
+    height: 300px;
+    margin-left: 314px;
+}
+
+h2{font-size: 44px;
+  padding-left: 351px;}
+
+
+
+@media screen and (max-width: 768px) {
+  .movesection {
+    width: 100%;
+  }
+
+nav {padding-top: -24px;}
+
+  img {
+    width: 50%;
+    height: 50%;
+    padding-left: 170px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  font-size:50px;
+  }
+
+  @media screen and (max-width: 640px) {
+    font-size: 27px;
+    }
+
+
+    img {width: 400px;
+  height: 400px;}
